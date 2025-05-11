@@ -4,7 +4,7 @@ int main()
 {
     int max = 100;
 
-    for (int i = 1; i < max+1; i++)
+    for (int i = 1; i <= max; i++)
     {
         if (i % 15 == 0)
         {
